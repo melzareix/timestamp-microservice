@@ -4,7 +4,7 @@ const path = require('path');
 const logger = require('morgan');
 
 const app = express();
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 const apiV1 = require('./routes/apiv1');
 
 app.use(logger('dev'));
