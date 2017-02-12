@@ -6,11 +6,34 @@
 3) If it does not contain a date or Unix timestamp, it returns null for those properties.
 </code></pre>
 <h3><a id="Example_usage_8"></a>Example usage:</h3>
-<pre><code>https://example.com/December%2015,%202015
-https://example.com/1450137600
+<pre><code>https://microservice-timestampz.herokuapp.com/api/v1/December%2015,%202015
+https://microservice-timestampz.herokuapp.com/api/v1/1450137600
 </code></pre>
-<h3><a id="Example_output_14"></a>Example output:</h3>
-<pre><code>{ &quot;unix&quot;: 1450137600, &quot;natural&quot;: &quot;December 15, 2015&quot; }
+<h3><a id="Example_output_15"></a>Example output:</h3>
+<pre><code>{ &quot;status&quot;: &quot;OK&quot;, &quot;unix&quot;: 1450137600, &quot;natural&quot;: &quot;December 15, 2015&quot; }
 </code></pre>
+<h1><a id="How_to_install_21"></a>How to install</h1>
+<ul>
+<li>Install NodeJS and NPM</li>
+</ul>
+<p><a href="https://docs.npmjs.com/getting-started/installing-node">https://docs.npmjs.com/getting-started/installing-node</a></p>
+<ul>
+<li>
+<p>Clone the project</p>
+<pre><code>git clone https://github.com/melzareix/timestamp-microservice.git timestamp-ms
+</code></pre>
+</li>
+<li>
+<p>Install Dependencies</p>
+<pre><code>cd timestamp-ms
+npm install
+</code></pre>
+</li>
+<li>
+<p>Run the project</p>
+<pre><code>  npm start
+</code></pre>
+</li>
+</ul>
 
 </body></html>

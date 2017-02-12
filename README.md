@@ -6,16 +6,17 @@ User stories:
 3) If it does not contain a date or Unix timestamp, it returns null for those properties.
 ```
 
-Example usage:
+### Example usage:
 
 ```
-https://example.com/December%2015,%202015
-https://example.com/1450137600
+https://microservice-timestampz.herokuapp.com/api/v1/December%2015,%202015
+https://microservice-timestampz.herokuapp.com/api/v1/1450137600
 ```
-Example output:
+
+### Example output:
 
 ```
-{ "unix": 1450137600, "natural": "December 15, 2015" }
+{ "status": "OK", "unix": 1450137600, "natural": "December 15, 2015" }
 ```
 
 # How to install
